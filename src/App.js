@@ -5,6 +5,7 @@ import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
+  //Logged in state, indicates if the isCreditCardHolder is true or false.
   constructor() {
     super();
     this.state = {
